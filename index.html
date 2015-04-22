@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!-- skel-baseline v2.0.3 | (c) n33 | getskel.com | MIT licensed -->
+<html>
+	<head>
+		<title>60-second Multiplication Game (Version 1)</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="index.html">60-second Multiplication Game (Version 1)</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Game</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>60-second Multiplication Game</h2>
+				<p>Version 1</p>
+				<ul class="actions">
+					<li><span id="startButton"><a onclick="startGame();" class="button" href="javascript:void(0)">Start Game</a></span></li>
+				</ul>
+			</section>
+
+		<!-- Main -->
+			<div id="main" class="container">
+
+				<noscript><span style="font-style: italic; font-size: smaller;">Please enable Javascript to enjoy this game.</span></noscript>
+				<div class="row"><div class="12u"><h2><code id="timer">Time Remaining: 60 seconds</code></h2></div></div>
+				<hr class="major" id="horizontalRule" style="display: none;" />
+				<div class="row" id="gameWindow" style="display: none;">
+					<div class="6u 12u(medium)"><p><span style="font-size: 5em; font-weight: bolder;"><span id="numOne">3</span> &times; <span id="numTwo">5</span> = </span></p></div>
+					<div class="6u 12u(medium)"><p><input style="display: inline-block;" type="text" id="playerAnswer" /></p></div>
+				</div>
+
+				<div id="script-wrapper">
+					<script src="game.js"></script>
+				</div>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="12u">
+							<h2>Copyright Notice</h2>
+							<p>This game is copyrighted by <a href="http://donaldkellett.github.io" target="_blank">Donald Leung</a>.  Feel free to download it, play the game and perhaps mess with the code (if you know Javascript), but in NO CIRCUMSTANCES should you redistribute, sublicense or sell copies of this game <strong>unless</strong> you have been given explicit permission to do so.</p>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					&copy; Donald Leung.  All rights reserved.
+				</div>
+			</footer>
+
+	</body>
+</html>

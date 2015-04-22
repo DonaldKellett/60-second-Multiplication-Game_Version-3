@@ -1,0 +1,8 @@
+(c) Donald Leung.  All rights reserved.
+This game is copyrighted by Donald Leung.  Feel free to download it, play the game and perhaps mess with the code (if you know Javascript), but in NO CIRCUMSTANCES should you redistribute, sublicense or sell copies of this game unless you have been given explicit permission to do so.
+# Credits
+1. Harry Streatfield - he told me where to find the code to make Javascript detect the enter key
+2. Nickey Khem - I found the code to detect keystrokes in his game: Iron Man Jump
+# Exemption (Special Permission)
+The following people/websites/organisations are currently exempted from certain terms in this License:
+Harry Streatfield (http://harrystreatfield.com & http://harrystreatfield.github.io)
