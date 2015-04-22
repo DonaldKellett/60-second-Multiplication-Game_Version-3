@@ -1,6 +1,6 @@
 /*
  * game.js
- * 60-second Multiplication Game (Version 1)
+ * 60-second Multiplication Game (Version 3)
  * Copyright (c) Donald Leung.  All rights reserved.
  */
 
